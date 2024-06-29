@@ -1,9 +1,8 @@
-# 📊 Data evaluation template
+# 📊 Finnish Tarot Cards API
 
-A simple Streamlit app showing how to evaluate and annotate data, using dataframes
-and charts. 
+This app communicates with a Finnish Tarot Card API to provide a tarot reading based on your question.
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://data-evaluation-template.streamlit.app/)
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://finnish-tarot-cards-api.streamlit.app/)
 
 ### How to run it on your own machine
 
