@@ -1,4 +1,4 @@
-# 📊 Finnish Tarot Cards API
+# Finnish Tarot Cards API
 
 This app communicates with a Finnish Tarot Card API to provide a tarot reading based on your question.
 
