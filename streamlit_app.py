@@ -23,7 +23,7 @@ st.write("""
 
 **API Documentation:**
 - **Endpoint:** `https://lobster-app-e45d3.ondigitalocean.app/question`
-- **Method:** POST
+- **Method:** GET
 - **Payload:**
     - `user_question` (string): The question you want to ask.
     - `conversation_id` (integer): A unique identifier for your session.
