@@ -37,7 +37,7 @@ st.header("Use the API")
 
 # Input fields
 user_question = st.text_input("Enter your question:", placeholder="What does the future hold for me?")
-conversation_id = st.number_input("Enter a conversation ID:", min_value=0, value=0, step=1)
+conversation_id = st.number_input("Enter a conversation ID (used to track conversation):", min_value=0, value=123, step=1)
 
 if st.button("Get Reading"):
     if user_question and conversation_id:
