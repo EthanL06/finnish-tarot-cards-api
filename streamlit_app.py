@@ -3,12 +3,8 @@ import requests
 
 # Function to call the Finnish Tarot Card API
 def get_tarot_reading(user_question, conversation_id):
-    url = "https://api.finnishtarotcard.com/getReading"  # Placeholder URL
-    payload = {
-        "user_question": user_question,
-        "conversation_id": conversation_id
-    }
-    response = requests.post(url, json=payload)
+    url = f"https://lobster-app-e45d3.ondigitalocean.app/question?user_question={user_question}&conversation_id={conversation_id}"
+    response = requests.get(url)
     if response.status_code == 200:
         return response.json()
     else:
@@ -26,7 +22,7 @@ st.write("""
 3. Click on 'Get Reading' to receive your tarot card reading.
 
 **API Documentation:**
-- **Endpoint:** `https://api.finnishtarotcard.com/question`
+- **Endpoint:** `https://lobster-app-e45d3.ondigitalocean.app/question`
 - **Method:** POST
 - **Payload:**
     - `user_question` (string): The question you want to ask.
